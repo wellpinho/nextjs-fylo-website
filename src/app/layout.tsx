@@ -1,7 +1,7 @@
 import './globals.css'
-import { Raleway } from 'next/font/google'
+import { Open_Sans } from 'next/font/google'
 
-const inter = Raleway({ 
+const inter = Open_Sans({ 
   weight: ['400', '700'],
   subsets: ['latin'] 
 })
@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className='dark'>
       <body className={inter.className}>{children}</body>
     </html>
   )

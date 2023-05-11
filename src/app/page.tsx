@@ -1,7 +1,9 @@
+'use client'
+
 export default function Home() {
   return (
     <main>
-      <h1>simples</h1>
+      <h1>Fylo</h1>
     </main>
   )
 }
