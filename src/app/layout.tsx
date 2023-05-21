@@ -3,7 +3,7 @@ import { Open_Sans } from 'next/font/google'
 
 const inter = Open_Sans({ 
   weight: ['400', '700'],
-  subsets: ['latin'] 
+  subsets: ['latin'],
 })
 
 export const metadata = {

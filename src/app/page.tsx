@@ -1,9 +1,9 @@
 'use client'
 
+import { Header } from "./components/header"
+
 export default function Home() {
   return (
-    <main>
-      <h1>Fylo</h1>
-    </main>
+    <Header />
   )
 }
